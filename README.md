@@ -72,7 +72,7 @@ With 10 epochs for each experiments
 Simply download pretrained weight and run
 
 ```
-yolo task=detect mode=predict model="./yolov8s_playing_cards.pt" source="./assets/test.jpg"
+ yolo detect predict model="./yolov8s_playing_cards.pt" source="./assets/blackjack.jpg" project="./" name="detect"
 ```
 
 And you will get the result
